@@ -6,7 +6,7 @@
     min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(143, 147, 152, 0.7),rgba(143, 147, 152, 0.7)),
-    url("images/image2.avif");
+    url("image2.avif");
     
     background-position: center;
     background-size: cover;
@@ -391,7 +391,7 @@ body {
 .cta {
     margin: 50px auto;
     width: 90%; /* Make it more flexible for smaller screens */
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/image18.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image18.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -490,7 +490,7 @@ body {
 .sub-header{
     height: 65vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/image3.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image3.jpg);
     background-position: center;
     background-size: cover;
     text-align:center;
