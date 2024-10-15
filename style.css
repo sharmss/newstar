@@ -386,73 +386,7 @@ body {
     }
 }
 
-/* call to action*/
 
-.cta {
-    margin: 50px auto;
-    width: 90%; /* Make it more flexible for smaller screens */
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image18.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    padding: 60px 20px; /* Reduced padding for smaller screens */
-}
-
-.cta h1 {
-    color: #fff;
-    margin-bottom: 20px;
-    font-size: 2.5em; /* Adjust font size for responsiveness */
-    margin-top: 20px;
-}
-
-.cta h3 {
-    color: #fff;
-    font-size: 1.2em; /* Adjust font size for smaller screens */
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#cta h3{
-    color: #666;
-    text-align: center;
-}
-#cta h1{
-    text-align: center;
-}
-
-
-
-/* Responsive design - Media Queries */
-@media (max-width: 768px) {
-    .cta {
-        width: 95%; /* For tablets and small devices */
-        padding: 50px 15px;
-    }
-
-    .cta h1 {
-        font-size: 2em; /* Adjust font size for tablets */
-    }
-
-    .cta h3 {
-        font-size: 1em; /* Adjust font size for tablets */
-    }
-
-}
-
-@media (max-width: 480px) {
-    .cta {
-        width: 100%; /* For mobile devices */
-        padding: 40px 10px;
-    }
-
-    .cta h1 {
-        font-size: 1.8em; /* Adjust font size for mobile */
-    }
-
-    .cta h3 {
-        font-size: 0.9em; /* Adjust font size for mobile */
-    }
-
-}
 
 /* footer */
 
@@ -490,7 +424,7 @@ body {
 .sub-header{
     height: 65vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image3.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("image3.jpg");
     background-position: center;
     background-size: cover;
     text-align:center;
